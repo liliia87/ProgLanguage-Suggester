@@ -4,7 +4,7 @@
   <title>Programming Language Quiz</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
 </head>
 <body>
@@ -17,15 +17,17 @@
             <footer class="blockquote-footer">Alex McPeak</footer>
         </blockquote>
     </div>
-    <div class="container-fluid p-5  bg-secondary text-white ronded">
+<div class="row">
+<div clas="col-md-6">
+    <div class="container-fluid bg-secondary text-white ronded">
         <h2>Programming Language Quiz</h2>
-        <form class="form1">
+        <form id="form1">
             <label for="name">
                 1. Enter your name:
             </label>
             <input id="name" type="text" required>
             <br><br>   
-            <label id="purpose">
+            <label for="purpose">
                 2. Do you have previous programming experience?
             </label>
             <select class="form1" id="purpose">
@@ -33,7 +35,7 @@
                 <option>No</option>
             </select>
             <br><br>
-            <label id="purpose1">
+            <label for="purpose1">
                 3. Are you looking for eassy language for jump in?
             </label>
             <select class="form1" id="purpose1">
@@ -41,7 +43,7 @@
                 <option>No</option>
             </select>
             <br><br>
-            <label id="purpose2">
+            <label for="purpose2">
                 4. Are you intrested in <mark>front-end</mark> or <mark>back end</mark>?
             </label>
             <div class = "radio">
@@ -57,19 +59,29 @@
                 </label>
             </div> 
             <br><br>
-            <label id="purpose4">
+            <label for="purpose4">
                 5.How many hours per day, you are able to practice?
             </label>
             <input id="hours" type="text" placeholder="3" required>
             <br><br> 
             <div>
-            <label for="volume">How exited you are about your learnin?</label>
+            <label for="volume">
+                6.How exited you are about your learnin?
+            </label>
             <input type="range" class="form-range" id="volume" name="volume" min="0" max="10">     
             </div>
+            <button type="submit" class="btn">Enter</button>
         </form>
     </div>
+</div>
+<div class="col-md-6">
+    <div id="output">
+        Hi<span id="quote"></span>! So happy to give you a feedback.
+    </div>
+</div>
+</div>
     <div class="container-fluid  text-center" id="footer">
-            Created by: Liliia Kryvelova
+            Created by: Liliia K
     </div>  
 
      

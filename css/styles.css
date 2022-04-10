@@ -6,3 +6,6 @@
     background-color: rgb(227, 209, 209);
     padding: 0%;
 }
+.btn{
+    border: linear-gradient(to right, grey, white);
+}
