@@ -6,6 +6,17 @@
     background-color: rgb(227, 209, 209);
     padding: 0%;
 }
+
 .btn{
-    border: linear-gradient(to right, grey, white);
+    border: 2px solid black;
+    background-color: rgb(232, 186, 186);
 }
+
+/* #output{
+    display: block;
+}
+
+#output:hover{
+    display: none;
+    color:red;
+} */
