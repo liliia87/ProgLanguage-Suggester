@@ -19,15 +19,15 @@ _There are at least 3 different language suggestions_
 
 ## Setup/Installation Requirements
 
-_Clone this git on your local computer;_
-_For clonning: use button Clone -> from repository;_
-_Copy the clone command(SSH format or HTTPS);_
-_From a terminal on your local computer, use command "cd" to find the directory where you want to clone this repository;_
-_Type the command ($ git clone HTTPs);_
-_If you clone successfully , a new sub-directory appears on your local computer;_
-_In the directory you will find(index.html, folder->css, folder->js);_
-_Run the index.html (double click on it and the page should appear in web browser);_
-_If you are willing to debug or change something in the project, the best way is to open it throught the VisuaStudio;_
+_1. Clone this git on your local computer;_
+_2. For clonning: use button Clone -> from repository;_
+_3. Copy the clone command(SSH format or HTTPS);_
+_4. From a terminal on your local computer, use command "cd" to find the directory where you want to clone this repository;_
+_5. Type the command ($ git clone HTTPs);_
+_6. If you clone successfully , a new sub-directory appears on your local computer;_
+_7. In the directory you will find(index.html, folder->css, folder->js);_
+_8. Run the index.html (double click on it and the page should appear in web browser);_
+_9. If you are willing to debug or change something in the project, the best way is to open it throught the VisuaStudio;_
 
 
 ## Known Bugs
